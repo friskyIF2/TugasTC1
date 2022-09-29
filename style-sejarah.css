@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #96c9ff;
+}
+
+/* Header */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+/* Text Dalam Gambar */
+.tengah {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Times New Roman;
+  font-size: 70px;
+
+}
+
+/* Nav Menu */
+.navbar {
+  overflow: hidden;
+  background-color: #7d86ff;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Dropdown Menu */
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #4252ff;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #96bbfa;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+
+}
+
+.dropdown-content a:hover {
+  background-color: #949494;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 px;
+  align-items: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  position: relative;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 12px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.card a:link, a:visited {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.button {
+  background-color: #4a8fff; 
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+.button1 {padding: 10px 24px;}
+
+/* Footer */
+.footer {
+  padding: 1px;
+  text-align: center;
+  background-color: #69a3ff;
+  font-family: Times New Roman;
+  font-size: 12px;
+}
